@@ -1,0 +1,22 @@
+{
+  "eslint.validate": [
+    { "language": "html", "autoFix": true },
+    { "language": "vue", "autoFix": true },
+    { "language": "javascript", "autoFix": true },
+    { "language": "javascriptreact", "autoFix": true }
+  ],
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+  "editor.tabCompletion": "on",
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto"
+    }
+  }
+}
