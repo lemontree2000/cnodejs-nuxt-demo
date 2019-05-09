@@ -22,6 +22,7 @@ module.exports = {
     'nuxt/no-cjs-in-config': 'off',
     'no-console': 0,
     'prettier/prettier': ['error', {
+      "printWidth": 120
     }]
   }
 }
